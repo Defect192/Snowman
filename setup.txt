@@ -1,0 +1,8 @@
+Final Animation:
+
+ffmpeg.exe -framerate 24 -i Scene%%03d.png -codec copy FinalAnimation.mp4
+pause
+
+Frame setup:
+
+800x600 AA 0.3, +fn -w800 -h600
